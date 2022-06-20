@@ -1,0 +1,36 @@
+@use "../../presets/" as *;
+@use "../../mixins/" as *;
+
+.header-navbar {
+  &__btn {
+    display: none;
+  }
+
+  &__list {
+    display: grid;
+    justify-content: end;
+    grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
+
+    @include unlist;
+  }
+
+  &__item {
+    margin: 10px 20px;
+  }
+
+  &__link {
+    display: block;
+
+    transition: color 0.5s;
+
+    font-size: 1.125rem;
+
+    @include md-min {
+      padding: $gap $gap-sm;
+    }
+
+    @include md {
+      padding: $gap-sm $gap;
+    }
+  }
+}

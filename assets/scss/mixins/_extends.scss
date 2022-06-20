@@ -1,1 +1,8 @@
 @use "../presets/" as *;
+
+%container {
+  max-width: $ul;
+  padding-left: $gap; //20px
+  padding-right: $gap;
+  margin: 0 auto;
+}
