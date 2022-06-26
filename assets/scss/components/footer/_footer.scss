@@ -17,7 +17,7 @@
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
 
-    &__link {
+    &-link {
       display: block;
       padding: $gap-sm;
       transition: color 0.5s;

@@ -930,14 +930,14 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(50px, -webkit-max-content));
   grid-template-columns: repeat(auto-fit, minmax(50px, max-content));
 }
-.footer__social__link {
+.footer__social-link {
   display: block;
   padding: 10px;
   -webkit-transition: color 0.5s;
   -o-transition: color 0.5s;
   transition: color 0.5s;
 }
-.footer__social__link:hover {
+.footer__social-link:hover {
   color: #d66926;
 }
 .footer__social .fab {
